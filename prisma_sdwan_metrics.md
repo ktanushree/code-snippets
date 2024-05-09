@@ -1,15 +1,17 @@
-## Description
+## Interface Stats Retrieval
+
+### Description
 Code Snippet to retrieve Interface Stats for the past hour from WAN interfaces from all devices on your tenant
 
-## Requirement
+### Requirement
 Environment with the latest version of Prisma SASE SDK or CloudGenix SDK installed
 Python >  3.7 or higher
 
-## Assumptions:
+### Assumptions:
 - sdk is the instantiated SDK object. 
 - Authentication to the Prisma SDWAN endpoint has completed.
 - 
-## Code Snippet
+### Code Snippet
 
 ```
 resp = sdk.get.elements()
