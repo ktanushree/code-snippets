@@ -1,5 +1,5 @@
 ### Description
-Code Snippet to retrieve elements assigned to a site
+Code Snippet to retrieve elements assigned to a site (**element_query** API)
 
 ### Requirement
 Environment with the latest version of Prisma SASE SDK or CloudGenix SDK installed
