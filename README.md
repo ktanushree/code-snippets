@@ -10,6 +10,7 @@ MIT
 #### Snippet Guide
 | Category | Document Name | Description | Content |
 | ------- | ----- | ------- | ------- |
+| Prisma SD-WAN Authentication | authentication.md | Guide that goes over instantiation and authentication using the prisma_sase and cloudgenix SDK | prisma_sase instantiation & authentication, cloudgenix instantiation & authentication |
 | Prisma SD-WAN Metrics | prisma_sdwan_metrics.md | Guide that goes over the prisma_sase and cloudgenix SDK usage to retrieve Prisma SDWAM metrics | Interface Stats |
 
  
