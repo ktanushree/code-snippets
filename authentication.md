@@ -36,3 +36,41 @@ sase_session.interactive.login_secret(client_id=client_id, client_secret=client_
 The sase_session object can now be used for making API calls.
 
 
+# Authentication using CloudGenix SDK (cloudgenix)
+
+### Description
+Code Snippet to instantiate and authenticate using the cloudgenix SDK
+
+### Requirement
+Environment with the latest version of CloudGenix SDK installed
+Python >  3.7 or higher
+
+### Assumptions:
+- cloudgenix SDK is installed
+- Auth token is created via the Prisma SDWAN portal. Make sure IP Session Lock is disabled if you intend to share the token or use the token on a different machine or a VM.
+  
+### Code Snippet
+```
+############################
+# Import cloudgenix SDK
+############################
+import cloudgenix
+
+############################
+# Instantiate SDK object
+############################
+cgx_session = cloudgenix.API()
+
+#######################################
+# Authenticate using Auth Token 
+#######################################
+auth_token = "paste auth token"
+
+cgx_session.interactive.use_token(token=auth_token)
+
+```
+
+The cgx_session object can now be used for making API calls.
+
+
+
