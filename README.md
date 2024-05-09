@@ -10,7 +10,7 @@ MIT
 #### Snippet Guide
 | Category | Document Name | Description | Content |
 | ------- | ----- | ------- | ------- |
-| Prisma SD-WAN Authentication | authentication.md | Guide that goes over instantiation and authentication using the prisma_sase and cloudgenix SDK | 1. prisma_sase instantiation & authentication\n 2. cloudgenix instantiation & authentication |
+| Prisma SD-WAN Authentication | authentication.md | Guide that goes over instantiation and authentication using the prisma_sase and cloudgenix SDK | 1. prisma_sase instantiation & authentication<br> 2. cloudgenix instantiation & authentication |
 | Prisma SD-WAN MSP Workflows | msp.md | Guide that goes over the prisma_sase SDK usage for MSP use cases | 1. Access Child Tenants using Parent Service Account |
 | Prisma SD-WAN Metrics | prisma_sdwan_metrics.md | Guide that goes over the prisma_sase and cloudgenix SDK usage to retrieve Prisma SDWAM metrics | Interface Stats |
 
