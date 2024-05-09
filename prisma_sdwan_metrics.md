@@ -13,7 +13,7 @@ Python >  3.7 or higher
 - 
 ### Code Snippet
 
-```
+```ruby
 resp = sdk.get.elements()
 if resp.cgx_status:
     elemlist = resp.cgx_content.get("items", None)
