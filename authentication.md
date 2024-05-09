@@ -1,4 +1,4 @@
-# Authentication using Prisma SASE SDK (prisma_sase)
+## Authentication using Prisma SASE SDK (prisma_sase)
 
 ### Description
 Code Snippet to instantiate and authenticate using the prisma_sase SDK
@@ -36,7 +36,7 @@ sase_session.interactive.login_secret(client_id=client_id, client_secret=client_
 The sase_session object can now be used for making API calls.
 
 
-# Authentication using CloudGenix SDK (cloudgenix)
+## Authentication using CloudGenix SDK (cloudgenix)
 
 ### Description
 Code Snippet to instantiate and authenticate using the cloudgenix SDK
