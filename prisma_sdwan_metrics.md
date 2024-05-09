@@ -10,7 +10,7 @@ Python >  3.7 or higher
 ### Assumptions:
 - sdk is the instantiated SDK object. 
 - Authentication to the Prisma SDWAN endpoint has completed.
-- 
+  
 ### Code Snippet
 
 ```ruby
