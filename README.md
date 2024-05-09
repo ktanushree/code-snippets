@@ -8,8 +8,8 @@ This repository will contain several files, grouped by function and use cases th
 MIT
 
 #### Snippet Guide
-| Category |Document Name | Description | Content |
-| ------- | ----- | ------- |
+| Category | Document Name | Description | Content |
+| ------- | ----- | ------- | ------- |
 | Prisma SD-WAN Metrics | prisma_sdwan_metrics.md | Guide that goes over the prisma_sase and cloudgenix SDK usage to retrieve Prisma SDWAM metrics | Interface Stats |
 
  
