@@ -11,7 +11,7 @@ Python >  3.7 or higher
 - prisma_sase SDK is installed
   
 #### Code Snippet
-```
+```ruby
 ############################
 # Import prisma_sase SDK
 ############################
