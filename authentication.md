@@ -11,7 +11,7 @@ Python >  3.7 or higher
 - prisma_sase SDK is installed
   
 ### Code Snippet
-```
+```ruby
 ############################
 # Import prisma_sase SDK
 ############################
@@ -50,7 +50,7 @@ Python >  3.7 or higher
 - Auth token is created via the Prisma SDWAN portal. Make sure IP Session Lock is disabled if you intend to share the token or use the token on a different machine or a VM.
   
 ### Code Snippet
-```
+```ruby
 ############################
 # Import cloudgenix SDK
 ############################
