@@ -56,7 +56,7 @@ Python >  3.7 or higher
 data = {
     "query_params":{
         "or":{
-            "name":{"re":"tr01.gdy.cac"}
+            "name":{"re":"branch1"}
         }
     },
     "retrieved_fields_mask":False,
