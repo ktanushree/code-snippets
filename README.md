@@ -13,7 +13,6 @@ MIT
 | Authentication | [authentication.md](https://github.com/ktanushree/code-snippets/blob/main/authentication.md) | Guide that goes over instantiation and authentication using the prisma_sase and cloudgenix SDK | 1. prisma_sase instantiation & authentication<br><br>2. cloudgenix instantiation & authentication |
 | Metrics | [prisma_sdwan_metrics.md](https://github.com/ktanushree/code-snippets/blob/main/prisma_sdwan_metrics.md) | Guide that goes over the prisma_sase and cloudgenix SDK usage to retrieve Prisma SDWAM metrics | 1. Interface BW Stats |
 | MSP Workflows | [msp.md](https://github.com/ktanushree/code-snippets/blob/main/msp.md) | Guide that goes over the prisma_sase SDK usage for MSP use cases | 1. Access Child Tenants using Parent Service Account |
-| Site & Element Operations | [site_element_operations.md](https://github.com/ktanushree/code-snippets/blob/main/site_element_operations.md) | Guide that goes over the prisma_sase SDK usage for Site & Element management and operations use cases | 1. element query API  |
-
-
+| Site & Element Operations | [site_element_operations.md](https://github.com/ktanushree/code-snippets/blob/main/site_element_operations.md) | Guide that goes over the prisma_sase SDK usage for Site & Element management and operations use cases | 1. element query API (Get elements at a site)|
+| |  |  | 2. element query API (Get elements matching a name/string)|
  
