@@ -8,7 +8,7 @@ Python >  3.7 or higher
 ### Assumptions:
 - sdk is the instantiated SDK object. 
 - Authentication to the Prisma SDWAN endpoint has completed.
-- 
+  
 ### Code Snippet
 
 ```ruby
@@ -37,5 +37,37 @@ if resp.cgx_status:
 else:
     print("ERR: Could not retrieve sites")
     prisma_sase.jd_detailed(resp)
+```
+                            
+### Description
+Code Snippet to retrieve elements matching a name (**element_query** API)
+
+### Requirement
+Environment with the latest version of Prisma SASE SDK or CloudGenix SDK installed
+Python >  3.7 or higher
+
+### Assumptions:
+- sdk is the instantiated SDK object. 
+- Authentication to the Prisma SDWAN endpoint has completed.
+  
+### Code Snippet
+
+```ruby
+data = {
+    "query_params":{
+        "or":{
+            "name":{"re":"tr01.gdy.cac"}
+        }
+    },
+    "retrieved_fields_mask":False,
+    "retrieved_fields":[],
+    "sort_params":{"name":"asc"},
+    "dest_page":1,
+    "limit":100
+}
+
+resp = sdk.post.element_query(data=data)
+prisma_sase.jd_detailed(resp)
+```
   
                             
